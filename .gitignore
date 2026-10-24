@@ -1,15 +1,29 @@
-# Your settings and signing key stay on your machine
-config.properties
-*.keystore
-*.idsig
-
-# Build output
+# Gradle & Java Build Artifacts
+.gradle/
+build/
 out/
-*.apk
-*.ipk
-*.wgt
-__pycache__/
+bin/
+*.class
 
-# macOS
+# Security & Config
+*.keystore
+*.jks
+config.properties
+
+# Local Dumps & Backups
+backup/
+backups/
+*.log
+bt-dump.txt
+bt-filtered.txt
+bt-full.txt
+removed.log
+tclc06.zip
+
+# OS & IDE
+Thumbs.db
+Desktop.ini
 .DS_Store
-tools/.i18n-cache.json
+.idea/
+.vscode/
+*.swp
