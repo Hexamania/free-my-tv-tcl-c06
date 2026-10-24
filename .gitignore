@@ -27,3 +27,9 @@ Desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Extra local APKs and media
+stremio.apk
+FreeMyTV.apk
+FreeMyTV.apk.idsig
+*.m4a
